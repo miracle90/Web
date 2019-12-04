@@ -1,8 +1,8 @@
-# Development of WEB-based technology
+# web开发技术栈一览
 
-前端知识库
+持续补充。。。
 
-## Html~
+## Html
 
 * iframe的缺点
 
@@ -94,6 +94,8 @@
 * 你会用的几种框架以及区别
 
 #### Vue
+
+* vue中8种组件通信方式
 
 #### React
 
