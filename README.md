@@ -4,6 +4,10 @@ web开发技术栈大全
 
 ## 浏览器
 
+### 常见面试题
+
+* 页面白屏的原因和解决方法
+
 ### [1、事件机制](https://github.com/miracle90/Web/blob/master/docs/browser/event.md)
 
 * 注册事件
@@ -40,6 +44,20 @@ web开发技术栈大全
 * 将 CSS 文件转换为 CSSOM 树
 * 当我们生成 DOM 树和 CSSOM 树以后，就需要将这两棵树组合为渲染树
 * 根据渲染树来进行布局（也可以叫做回流）
+
+## [web安全](https://github.com/miracle90/Web/blob/master/docs/security/web-security.md)
+
+* XSS
+* CSRF
+* 点击劫持
+* SQL注入
+* DNS攻击
+
+## [前端监控](https://github.com/miracle90/Web/blob/master/docs/monitoring/monitoring.md)
+
+* 页面埋点
+* 性能监控
+* 异常监控
 
 ## Html
 
@@ -155,24 +173,13 @@ web开发技术栈大全
 * Egg.js
 * queryParams方法
 
-
 ## 构建工具~
 
 #### Webpack
 
 * webpack都需要配置那些内容
 
-## 浏览器相关~
-
-* 浏览器的渲染过程
-* 页面白屏的原因和解决方法
-
-#### 浏览器的缓存机制
-
-* 缓存：强缓存和协议缓存的原理
-
 ## 微信小程序~
-
 
 ## 网络相关~
 
@@ -193,13 +200,7 @@ web开发技术栈大全
 
 #### 了解WebWorker吗？一般使用WebWorker解决什么问题？
 
-#### 跨域
-
-* 跨域；json有什么不好的地方
-
-
 #### Websocket
-
 
 ## 前端性能优化~
 
@@ -217,20 +218,9 @@ web开发技术栈大全
 * 数组排序
 * 从数组中取出几个最小的值
 
-## 前端监控~
-
-
 ## 设计模式~
 
 ## PWA~
-
-## [web安全](https://github.com/miracle90/Web/blob/master/docs/security/web-security.md)
-
-* XSS
-* CSRF
-* 点击劫持
-* SQL注入
-* DNS攻击
 
 ## Nginx~
 
@@ -238,9 +228,7 @@ web开发技术栈大全
 
 ## Linux~
 
-
 ## Docker~
-
 
 ## 数据库~
 
