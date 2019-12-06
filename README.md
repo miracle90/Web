@@ -27,7 +27,7 @@ web开发技术栈大全
 
 ### [4、浏览器缓存](https://github.com/miracle90/Web/blob/master/docs/browser/cache.md)
 
-### 5、浏览器渲染原理
+### [5、浏览器渲染原理](https://github.com/miracle90/Web/blob/master/docs/browser/render.md)
 
 ## Html
 
