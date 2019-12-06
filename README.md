@@ -17,7 +17,13 @@ web开发技术栈大全
 * 浏览器同源策略
 * 跨域解决方案
 
-### 3、存储
+### [3、存储](https://github.com/miracle90/Web/blob/master/docs/browser/storage.md)
+
+* cookie
+* localStorage
+* sessionStorage
+* indexDB
+* Service Worker
 
 ### 4、浏览器缓存
 
