@@ -6,6 +6,11 @@ web开发技术栈大全
 
 ### [1、事件机制](https://github.com/miracle90/Web/blob/master/docs/browser/event.md)
 
+* 注册事件
+* 事件冒泡
+* 事件捕获
+* 事件代理
+
 ### 2、跨域
 
 ### 3、存储
