@@ -27,7 +27,19 @@ web开发技术栈大全
 
 ### [4、浏览器缓存](https://github.com/miracle90/Web/blob/master/docs/browser/cache.md)
 
+* Service Worker
+* mermory cache
+* Disk cache
+* Push cache
+* 强缓存 Expires Cache-control
+* 协商缓存 Last-modified、If-Modified-Since、ETag、If-None-Match
+
 ### [5、浏览器渲染原理](https://github.com/miracle90/Web/blob/master/docs/browser/render.md)
+
+* 浏览器接收到 HTML 文件并转换为 DOM 树
+* 将 CSS 文件转换为 CSSOM 树
+* 当我们生成 DOM 树和 CSSOM 树以后，就需要将这两棵树组合为渲染树
+* 根据渲染树来进行布局（也可以叫做回流）
 
 ## Html
 
