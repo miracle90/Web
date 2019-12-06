@@ -11,7 +11,11 @@ web开发技术栈大全
 * 事件捕获
 * 事件代理
 
-### 2、跨域
+### [2、跨域](https://github.com/miracle90/Web/blob/master/docs/browser/cross-domain.md)
+
+* 什么是跨域
+* 浏览器同源策略
+* 跨域解决方案
 
 ### 3、存储
 
