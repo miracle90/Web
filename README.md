@@ -224,12 +224,13 @@ web开发技术栈大全
 
 ## PWA~
 
-## web安全~
+## [web安全](https://github.com/miracle90/Web/blob/master/docs/security/web-security.md)
 
-* Web安全之XSS攻击
-* scrf,xss怎么去防止xss
-* dns攻击
-* csrf发生的原理及规避
+* XSS
+* CSRF
+* 点击劫持
+* SQL注入
+* DNS攻击
 
 ## Nginx~
 
