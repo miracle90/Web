@@ -4,7 +4,7 @@ web开发技术栈大全
 
 ## 浏览器
 
-### 1、事件机制
+### [1、事件机制](https://github.com/miracle90/Web/blob/master/docs/browser/event.md)
 
 ### 2、跨域
 
