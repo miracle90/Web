@@ -59,6 +59,31 @@ web开发技术栈大全
 * 性能监控
 * 异常监控
 
+## 网络相关~
+
+### 常见面试题
+
+### http/https
+### tcp与udp
+### http1.1/http2.0
+### 状态吗
+### get/post
+### websocket
+
+* GET和POST的区别
+* tcp协议
+* http协议
+* http和UDP的区别，为什么用http不用UDP
+* content-type的四种类型
+* input file上传的内容是什么
+* ajax可以上传file吗，怎么传
+* form表单提交和json提交的内容一样吗
+* http协议中缓存的状态码是多少？重定向的状态码是多少？301和302的区别？永久重定向和暂时重定向的区别？
+
+#### websocket如果连接异常，有降级处理方案吗？答心跳轮询。请求提示，说长轮询。
+
+#### 了解WebWorker吗？一般使用WebWorker解决什么问题？
+
 ## Html
 
 * iframe的缺点
@@ -180,27 +205,6 @@ web开发技术栈大全
 * webpack都需要配置那些内容
 
 ## 微信小程序~
-
-## 网络相关~
-
-* GET和POST的区别
-* tcp协议
-* http协议
-* http和UDP的区别，为什么用http不用UDP
-* content-type的四种类型
-* input file上传的内容是什么
-* ajax可以上传file吗，怎么传
-* form表单提交和json提交的内容一样吗
-* http2.0
-* http和https的区别
-* http1和2的区别
-* http协议中缓存的状态码是多少？重定向的状态码是多少？301和302的区别？永久重定向和暂时重定向的区别？
-
-#### websocket如果连接异常，有降级处理方案吗？答心跳轮询。请求提示，说长轮询。
-
-#### 了解WebWorker吗？一般使用WebWorker解决什么问题？
-
-#### Websocket
 
 ## 前端性能优化~
 
