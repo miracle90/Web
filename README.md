@@ -59,16 +59,36 @@ web开发技术栈大全
 * 性能监控
 * 异常监控
 
-## 网络相关~
+## 网络相关
+
+* OSI七层网络协议（Open System Interconnection）
+* 3次握手，4次挥手
+* 抓包
 
 ### 常见面试题
 
+### [1、七层网络协议](https://github.com/miracle90/Web/blob/master/docs/network/osi.md)
+
+* 应用层
+* 表示层
+* 会话层
+* 传输层
+* 网络层
+* 数据链路层
+* 物理层
+
 ### http/https
-### [2、tcp与udp](https://github.com/miracle90/Web/blob/master/docs/network/tcp-udp.md)
+
+### [3、tcp与udp](https://github.com/miracle90/Web/blob/master/docs/network/tcp-udp.md)
+
 ### http1.1/http2.0
+
 ### 状态吗
+
 ### get/post
+
 ### websocket
+
 
 * GET和POST的区别
 * tcp协议
