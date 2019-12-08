@@ -2,7 +2,7 @@
 
 web开发技术栈大全
 
-## 浏览器
+## :dart: 浏览器
 
 ### 常见面试题
 
@@ -45,7 +45,7 @@ web开发技术栈大全
 * 当我们生成 DOM 树和 CSSOM 树以后，就需要将这两棵树组合为渲染树
 * 根据渲染树来进行布局（也可以叫做回流）
 
-## [web安全](https://github.com/miracle90/Web/blob/master/docs/security/web-security.md)
+## [:dart: web安全](https://github.com/miracle90/Web/blob/master/docs/security/web-security.md)
 
 * XSS
 * CSRF
@@ -53,13 +53,13 @@ web开发技术栈大全
 * SQL注入
 * DNS攻击
 
-## [前端监控](https://github.com/miracle90/Web/blob/master/docs/monitoring/monitoring.md)
+## [:dart: 前端监控](https://github.com/miracle90/Web/blob/master/docs/monitoring/monitoring.md)
 
 * 页面埋点
 * 性能监控
 * 异常监控
 
-## [网络相关](https://github.com/miracle90/Web/blob/master/docs/network/network.md)
+## [:dart: 网络相关](https://github.com/miracle90/Web/blob/master/docs/network/network.md)
 
 * OSI七层网络协议（Open System Interconnection）
 * 应用层
