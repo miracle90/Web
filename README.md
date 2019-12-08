@@ -59,16 +59,9 @@ web开发技术栈大全
 * 性能监控
 * 异常监控
 
-## 网络相关
+## [网络相关](https://github.com/miracle90/Web/blob/master/docs/network/network.md)
 
 * OSI七层网络协议（Open System Interconnection）
-* 3次握手，4次挥手
-* 抓包
-
-### 常见面试题
-
-### [1、七层网络协议](https://github.com/miracle90/Web/blob/master/docs/network/osi.md)
-
 * 应用层
 * 表示层
 * 会话层
@@ -76,33 +69,30 @@ web开发技术栈大全
 * 网络层
 * 数据链路层
 * 物理层
+* http/https
+* http1.1/http2.0
+* tcp与udp
+* ip
+* 3次握手，4次挥手
+* 常见状态码
+* get/post
+* 抓包
+* websocket
 
-### http/https
+### 常见面试题
 
-### [3、tcp与udp](https://github.com/miracle90/Web/blob/master/docs/network/tcp-udp.md)
-
-### http1.1/http2.0
-
-### 状态吗
-
-### get/post
-
-### websocket
-
-
-* GET和POST的区别
-* tcp协议
-* http协议
-* http和UDP的区别，为什么用http不用UDP
 * content-type的四种类型
 * input file上传的内容是什么
 * ajax可以上传file吗，怎么传
 * form表单提交和json提交的内容一样吗
 * http协议中缓存的状态码是多少？重定向的状态码是多少？301和302的区别？永久重定向和暂时重定向的区别？
+* websocket如果连接异常，有降级处理方案吗？答心跳轮询。请求提示，说长轮询。
 
-#### websocket如果连接异常，有降级处理方案吗？答心跳轮询。请求提示，说长轮询。
+## 前端新技术
 
-#### 了解WebWorker吗？一般使用WebWorker解决什么问题？
+### PWA
+### Flutter
+### 了解WebWorker吗？一般使用WebWorker解决什么问题？
 
 ## Html
 
@@ -150,7 +140,6 @@ web开发技术栈大全
 * jquery的bing、delege、live的区别
 * jquery数组转成json怎么实现的
 
-
 #### Typescript
 
 #### Es6
@@ -159,7 +148,6 @@ web开发技术栈大全
 * 2、原型如何实现继承？Class 如何实现继承？Class 本质是什么？
 * 3、涉及面试题：Proxy 可以实现什么功能？
 * 4、并发与并行的区别？
-
 * ES6的新特性有哪些？
 
 #### Babel
@@ -231,7 +219,6 @@ web开发技术栈大全
 * 性能分析，怎么量化的分析一个页面的性能
 * 你所知道的前端性能优化方案
 
-
 ## 兼容性、适配问题~
 
 * 移动端300ms延迟
@@ -243,8 +230,6 @@ web开发技术栈大全
 * 从数组中取出几个最小的值
 
 ## 设计模式~
-
-## PWA~
 
 ## Nginx~
 
@@ -264,6 +249,7 @@ web开发技术栈大全
 
 ## 项目相关~
 
+* 项目中的亮点、难点
 * 聊一个你印象最深刻的项目经历
 * 项目做了什么事情
 * 用到什么技术
