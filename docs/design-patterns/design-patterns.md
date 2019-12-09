@@ -82,12 +82,261 @@ D |	依赖反转原则	| 依赖反转原则认为一个方法应该遵从“依�
 
 ### 工厂模式
 
+可以想象一个场景。假设有一份很复杂的代码需要用户去调用，但是用户并不关心这些复杂的代码，只需要你提供给我一个接口去调用，用户只负责传递需要的参数，至于这些参数怎么使用，内部有什么逻辑是不关心的，只需要你最后返回我一个实例。这个构造过程就是工厂。
+
+工厂起到的作用就是隐藏了创建实例的复杂度，只需要提供一个接口，简单清晰。
+
+* 简单工厂模式：简单工厂模式是由一个工厂对象决定创建出哪一种产品类的实例
+* 工厂方法模式：在工厂方法模式中，核心的工厂类不再负责所有的产品的创建，而是将具体创建的工作交给子类去做
+* 抽象工厂模式：抽象工厂模式可以向客户端提供一个接口，使客户端在不必指定产品的具体的情况下，创建多个产品族中的产品对象
+
+```
+// 抽象工厂模式
+class Button{
+    render() {
+
+    }
+}
+class AppleButton{
+    render() {
+       console.log('苹果按钮');
+    }
+}
+class WindowButton{
+    render() {
+       console.log('Windows按钮');
+    }
+}
+
+class Icon{
+    render() {
+
+    }
+}
+class AppleIcon{
+    render() {
+       console.log('苹果图标');
+    }
+}
+class WindowIcon{
+    render() {
+       console.log('Windows图标');
+    }
+}
+class Factory{
+    createButton() {}
+    createIcon() {}
+}
+class AppleFactory{
+    createButton() {
+        return new AppleButton();
+    }
+    createIcon() {
+        return new AppleButton();
+    }
+}
+class WindowsFactory{
+    createButton() {
+        return new WindowButton();
+    }
+    createIcon() {
+        return new WindowIcon();
+    }
+}
+const settings={
+    'apple': AppleFactory,
+    'windows':WindowsFactory
+}
+let appleFactory=new settings['apple']();
+appleFactory.createButton().render();
+appleFactory.createIcon().render();
+
+let windowsFactory=new settings['windows']();
+windowsFactory.createButton().render();
+windowsFactory.createIcon().render();
+```
+
 ### 单例模式
+
+单例模式很常用，比如全局缓存、全局状态管理等等这些只需要一个对象，就可以使用单例模式。
+
+单例模式的核心就是保证全局只有一个对象可以访问。因为 JS 是门无类的语言，所以别的语言实现单例的方式并不能套入 JS 中，我们只需要用一个变量确保实例只创建一次就行，以下是如何实现单例模式的例子
+
+```
+class Singleton {
+  constructor() {}
+}
+
+Singleton.getInstance = (function() {
+  let instance
+  return function() {
+    if (!instance) {
+      instance = new Singleton()
+    }
+    return instance
+  }
+})()
+
+let s1 = Singleton.getInstance()
+let s2 = Singleton.getInstance()
+console.log(s1 === s2) // true
+```
 
 ### 适配器模式
 
+适配器用来解决两个接口不兼容的情况，不需要改变已有的接口，通过包装一层的方式实现两个接口的正常协作。
+
+* 插件适配
+* promisify
+* computed
+
+```
+class Power{
+    charge() {
+        return '220V';
+    }
+}
+
+class Adapter{
+    constructor() {
+        this.power=new Power();
+    }
+    charge() {
+        let power=this.power.charge();
+        return `${power} => 12V`;
+    }
+}
+
+class Client{
+    constructor() {
+        this.adapter=new Adapter();
+    }
+    use() {
+        console.log(this.adapter.charge());
+    }
+}
+new Client().use();
+```
+
 ### 装饰器模式
+
+* 在不改变其原有的结构和功能为对象添加新功能
+* 装饰比继承更加灵活
+
+装饰器模式是将一个对象嵌入另一个对象之中，实际上相当于这个对象被另一个对象包装起来，形成一条包装链。请求随着这条链条依次传递到所有的对象，每个对象有处理这个请求的机会。
+
+```
+class Coffee{
+  make(water){
+    return `${water}+咖啡`;
+  }
+  cost(){
+      return 10;
+  }
+}
+
+class MilkCoffee{
+    constructor(parent){
+        this.parent = parent;
+    }
+    make(water){
+        return `${this.parent.make(water)}+牛奶`;
+    }
+    cost(){
+        return this.parent.cost()+1;
+    }
+}
+
+class SugerCoffee{
+    constructor(parent){
+        this.parent = parent;
+    }
+    make(water){
+        return `${this.parent.make(water)}+糖`;
+    }
+    cost(){
+        return this.parent.cost()+2;
+    }
+}
+let coffee = new Coffee();
+let milkCoffee = new MilkCoffee(coffee);
+let milksugerCoffee = new SugerCoffee(milkCoffee);
+console.log(milksugerCoffee.make('水')+'='+milksugerCoffee.cost());
+```
+
+* 埋点
+* 表单校验
+* 防CSRF攻击
+* 支持decorators
 
 ### 观察者模式/发布订阅模式
 
+```
+class Star{
+    constructor(name) {
+        this.name=name;
+        this.state='';
+        this.observers=[];
+    }
+    getState() {
+        return this.state;
+    }
+    setState(state) {
+        this.state=state;
+        this.notifyAllObservers();
+    }
+    attach(observer) {
+        this.observers.push(observer);
+    }
+    notifyAllObservers() {
+        this.observers.forEach(observer=>observer.update());
+    }
+}
+class Fan{
+    constructor(name,subject) {
+        this.name=name;
+        this.subject=subject;
+        this.subject.attach(this);
+    }
+    update() {
+        console.log(`${this.subject.name}有新的状态-${this.subject.getState()},${this.name}正在更新`);    
+    }
+}
+let star=new Star('赵丽颖');
+let fan1=new Fan('姜老师',star);
+star.setState('结婚');
+```
+
+* 事件绑定
+* Promise
+* events
+
 ### 代理模式
+
+由于一个对象不能直接引用另外一个对象，所以需要通过代理对象在这两个对象之间起到中介作用，可以在使用者和目标对象之间加一个代理对象,通过代理可以实现控制
+
+* 事件委托
+* 图片懒加载
+* 防抖代理
+* 代理跨域
+
+```
+class Goole{
+    constructor() {    }
+    get() {
+        return 'google';
+    }
+}
+
+class Proxy {
+    constructor() {
+        this.google=new Goole();
+    }
+    get() {
+        return this.google.get();
+    }
+}
+let proxy = new Proxy();
+let ret = proxy.get();
+console.log(ret);
+```
