@@ -88,7 +88,7 @@ web开发技术栈大全
 * http协议中缓存的状态码是多少？重定向的状态码是多少？301和302的区别？永久重定向和暂时重定向的区别？
 * websocket如果连接异常，有降级处理方案吗？答心跳轮询。请求提示，说长轮询。
 
-## :dart: 设计模式
+## :dart: [设计模式](https://github.com/miracle90/Web/blob/master/docs/design-patterns/design-patterns.md)
 
 * 单例模式
 * 工厂模式
