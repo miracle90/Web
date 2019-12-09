@@ -271,6 +271,8 @@ console.log(milksugerCoffee.make('水')+'='+milksugerCoffee.cost());
 
 ### 观察者模式/发布订阅模式
 
+观察者模式两个对象之间有很强的依赖关系；发布/订阅模式两个对象之间的耦合度低
+
 ```
 class Star{
     constructor(name) {
