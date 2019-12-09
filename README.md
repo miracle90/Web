@@ -90,9 +90,11 @@ web开发技术栈大全
 
 ## :dart: [设计模式](https://github.com/miracle90/Web/blob/master/docs/design-patterns/design-patterns.md)
 
+* 面向对象
+* SOLID五大设计原则
 * 单例模式
 * 工厂模式
-* 发布订阅/观察者
+* 发布订阅模式/观察者模式
 * 代理模式
 * 装饰器模式
 * 发布订阅模式和观察者模式的异同以及实际应用
