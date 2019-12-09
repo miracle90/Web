@@ -2,6 +2,78 @@
 
 web开发技术栈大全
 
+## :dart: Js
+
+### 异步
+
+* 聊聊promise async/await
+* Promise/A+规范
+* 手动实现Promise，写出伪代码
+* async 函数与 Generator 与co模块
+* 如果Promise代码执行出错，setTimeout中的方法是否还会继续执行？为什么？
+
+### Event Loop
+
+### 常见面试题
+
+* this
+* 闭包
+* 原型
+* 手写 call、apply 及 bind 函数
+* 1、原始类型有哪几种？null 是对象嘛？
+* 2、0.1 + 0.2 ！= 0.3
+* 3、typeof 是否能正确判断类型？instanceof 能正确判断对象的原理是什么？
+* 4、== 和 === 有什么区别？
+* 5、[] == ![]
+* 6、闭包
+* 7、什么是浅拷贝？如何实现浅拷贝？什么是深拷贝？如何实现深拷贝？
+* 8、如何理解原型？如何理解原型链？
+
+* 原型
+* 闭包
+* JavaScript事件模型
+* 事件代理
+* this
+* 0.1 + 0.2 ！= 0.3
+* null和undefined的区别
+* ['1', '2', '3'].map(parseInt)的输出结果是什么？
+* ['1', '2', '3'].fliter(parseInt)的输出结果是什么？
+* 说出几种数组去重的方式
+* 深拷贝和浅拷贝吗
+* 手动实现一个bind方法
+* （React）实现一个防抖的模糊查询输入框
+*  手动封装一个请求函数，可以设置最大请求次数，请求成功则不再请求，请求失败则继续请求直到超过最大次数
+* JS中==和===的区别
+* 实现函数柯里化
+* 跨标签页的通讯方式有哪些
+* 实现一个函数判断数据类型
+* sessionStorage、localStorage的区别
+* cookie的大小
+* 类型判断
+* 宿主对象和原生对象
+* 隐性转换
+* 断网情况下怎样实现页面离线编辑？除了localStorage和sessionStorage之外，还有什么缓存方式？（请求提示，说indexDB）
+
+### 进程和线程
+
+### Jquery
+
+* jquery一个对象绑定多个事件怎么实现的
+* jquery的bing、delege、live的区别
+* jquery数组转成json怎么实现的
+
+### Typescript
+
+### Es6
+
+* 1、什么是提升？什么是暂时性死区？var、let 及 const 区别？
+* 2、原型如何实现继承？Class 如何实现继承？Class 本质是什么？
+* 3、涉及面试题：Proxy 可以实现什么功能？
+* 4、并发与并行的区别？
+* ES6的新特性有哪些？
+
+### Babel
+
 ## :dart: 浏览器
 
 ### 常见面试题
@@ -130,70 +202,6 @@ web开发技术栈大全
 ## Html
 
 * iframe的缺点
-
-## Js
-
-* 1、原始类型有哪几种？null 是对象嘛？
-* 2、0.1 + 0.2 ！= 0.3
-* 3、typeof 是否能正确判断类型？instanceof 能正确判断对象的原理是什么？
-* 4、== 和 === 有什么区别？
-* 5、[] == ![]
-* 6、闭包
-* 7、什么是浅拷贝？如何实现浅拷贝？什么是深拷贝？如何实现深拷贝？
-* 8、如何理解原型？如何理解原型链？
-
-* 原型
-* 闭包
-* JavaScript事件模型
-* 事件代理
-* this
-* 0.1 + 0.2 ！= 0.3
-* null和undefined的区别
-* ['1', '2', '3'].map(parseInt)的输出结果是什么？
-* ['1', '2', '3'].fliter(parseInt)的输出结果是什么？
-* 说出几种数组去重的方式
-* 深拷贝和浅拷贝吗
-* 手动实现一个bind方法
-* （React）实现一个防抖的模糊查询输入框
-*  手动封装一个请求函数，可以设置最大请求次数，请求成功则不再请求，请求失败则继续请求直到超过最大次数
-* JS中==和===的区别
-* 实现函数柯里化
-* 跨标签页的通讯方式有哪些
-* 实现一个函数判断数据类型
-* sessionStorage、localStorage的区别
-* cookie的大小
-* 类型判断
-* 宿主对象和原生对象
-* 隐性转换
-* 断网情况下怎样实现页面离线编辑？除了localStorage和sessionStorage之外，还有什么缓存方式？（请求提示，说indexDB）
-
-#### Jquery
-
-* jquery一个对象绑定多个事件怎么实现的
-* jquery的bing、delege、live的区别
-* jquery数组转成json怎么实现的
-
-#### Typescript
-
-#### Es6
-
-* 1、什么是提升？什么是暂时性死区？var、let 及 const 区别？
-* 2、原型如何实现继承？Class 如何实现继承？Class 本质是什么？
-* 3、涉及面试题：Proxy 可以实现什么功能？
-* 4、并发与并行的区别？
-* ES6的新特性有哪些？
-
-#### Babel
-
-#### 异步
-
-* 聊聊promise async/await
-* Promise/A+规范
-* 手动实现Promise，写出伪代码
-* async 函数与 Generator 与co模块
-* 如果Promise代码执行出错，setTimeout中的方法是否还会继续执行？为什么？
-
-#### 进程和线程
 
 ## Css~
 
