@@ -1,10 +1,79 @@
 # Front End
 
-web开发技术栈大全
+web开发知识库
 
-## :dart: Js
+## [一、网络相关](https://github.com/miracle90/Web/blob/master/docs/network/network.md)
 
-### 异步
+### [1、CDN](https://github.com/miracle90/Web/blob/master/docs/network/cdn.md)
+### 2、UDP和TCP
+### 3、HTTP和HTTPS
+### 4、HTTP/1和HTTP/2
+### 5、DNS解析
+### 6、websocket
+
+### 其他
+
+* ip
+* 3次握手，4次挥手
+* 常见状态码
+* get/post
+* 抓包
+
+### 常见面试题
+
+* content-type的四种类型
+* input file上传的内容是什么
+* ajax可以上传file吗，怎么传
+* form表单提交和json提交的内容一样吗
+* http协议中缓存的状态码是多少？重定向的状态码是多少？301和302的区别？永久重定向和暂时重定向的区别？
+* websocket如果连接异常，有降级处理方案吗？答心跳轮询。请求提示，说长轮询
+
+## 二、浏览器
+
+### 常见面试题
+
+* 页面白屏的原因和解决方法
+
+### [1、事件机制](https://github.com/miracle90/Web/blob/master/docs/browser/event.md)
+
+* 注册事件
+* 事件冒泡
+* 事件捕获
+* 事件代理
+
+### [2、跨域](https://github.com/miracle90/Web/blob/master/docs/browser/cross-domain.md)
+
+* 什么是跨域
+* 浏览器同源策略
+* 跨域解决方案
+
+### [3、存储](https://github.com/miracle90/Web/blob/master/docs/browser/storage.md)
+
+* cookie
+* localStorage
+* sessionStorage
+* indexDB
+* Service Worker
+
+### [4、浏览器缓存](https://github.com/miracle90/Web/blob/master/docs/browser/cache.md)
+
+* Service Worker
+* mermory cache
+* Disk cache
+* Push cache
+* 强缓存 Expires Cache-control
+* 协商缓存 Last-modified、If-Modified-Since、ETag、If-None-Match
+
+### [5、浏览器渲染原理](https://github.com/miracle90/Web/blob/master/docs/browser/render.md)
+
+* 浏览器接收到 HTML 文件并转换为 DOM 树
+* 将 CSS 文件转换为 CSSOM 树
+* 当我们生成 DOM 树和 CSSOM 树以后，就需要将这两棵树组合为渲染树
+* 根据渲染树来进行布局（也可以叫做回流）
+
+## 二、Javascript
+
+### 异步发展流程
 
 * 聊聊promise async/await
 * Promise/A+规范
@@ -74,49 +143,6 @@ web开发技术栈大全
 
 ### Babel
 
-## :dart: 浏览器
-
-### 常见面试题
-
-* 页面白屏的原因和解决方法
-
-### [1、事件机制](https://github.com/miracle90/Web/blob/master/docs/browser/event.md)
-
-* 注册事件
-* 事件冒泡
-* 事件捕获
-* 事件代理
-
-### [2、跨域](https://github.com/miracle90/Web/blob/master/docs/browser/cross-domain.md)
-
-* 什么是跨域
-* 浏览器同源策略
-* 跨域解决方案
-
-### [3、存储](https://github.com/miracle90/Web/blob/master/docs/browser/storage.md)
-
-* cookie
-* localStorage
-* sessionStorage
-* indexDB
-* Service Worker
-
-### [4、浏览器缓存](https://github.com/miracle90/Web/blob/master/docs/browser/cache.md)
-
-* Service Worker
-* mermory cache
-* Disk cache
-* Push cache
-* 强缓存 Expires Cache-control
-* 协商缓存 Last-modified、If-Modified-Since、ETag、If-None-Match
-
-### [5、浏览器渲染原理](https://github.com/miracle90/Web/blob/master/docs/browser/render.md)
-
-* 浏览器接收到 HTML 文件并转换为 DOM 树
-* 将 CSS 文件转换为 CSSOM 树
-* 当我们生成 DOM 树和 CSSOM 树以后，就需要将这两棵树组合为渲染树
-* 根据渲染树来进行布局（也可以叫做回流）
-
 ## :dart: [web安全](https://github.com/miracle90/Web/blob/master/docs/security/web-security.md)
 
 * XSS
@@ -130,36 +156,6 @@ web开发技术栈大全
 * 页面埋点
 * 性能监控
 * 异常监控
-
-## :dart: [网络相关](https://github.com/miracle90/Web/blob/master/docs/network/network.md)
-
-* OSI七层网络协议（Open System Interconnection）
-* 应用层
-* 表示层
-* 会话层
-* 传输层
-* 网络层
-* 数据链路层
-* 物理层
-* http/https
-* http1.1/http2.0
-* tcp与udp
-* ip
-* 3次握手，4次挥手
-* 常见状态码
-* get/post
-* 抓包
-* websocket
-* CDN
-
-### 常见面试题
-
-* content-type的四种类型
-* input file上传的内容是什么
-* ajax可以上传file吗，怎么传
-* form表单提交和json提交的内容一样吗
-* http协议中缓存的状态码是多少？重定向的状态码是多少？301和302的区别？永久重定向和暂时重定向的区别？
-* websocket如果连接异常，有降级处理方案吗？答心跳轮询。请求提示，说长轮询。
 
 ## :dart: [设计模式](https://github.com/miracle90/Web/blob/master/docs/design-patterns/design-patterns.md)
 
