@@ -5,10 +5,11 @@ web开发知识库
 ## [一、网络相关](https://github.com/miracle90/Web/blob/master/docs/network/network.md)
 
 ### [1、CDN](https://github.com/miracle90/Web/blob/master/docs/network/cdn.md)
-### 2、UDP和TCP
-### 3、HTTP和HTTPS
-### 4、HTTP/1和HTTP/2
-### 5、DNS解析
+### [2、DNS解析](https://github.com/miracle90/Web/blob/master/docs/network/dns.md)
+### 3、UDP和TCP
+### 4、HTTP和HTTPS
+### 5、HTTP/1和HTTP/2
+
 ### 6、websocket
 
 ### 其他
