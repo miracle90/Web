@@ -2,16 +2,14 @@
 
 web开发知识库
 
-## [一、网络相关](https://github.com/miracle90/Web/blob/master/docs/network/network.md)
+## 一、网络相关
 
 ### [1、CDN](https://github.com/miracle90/Web/blob/master/docs/network/cdn.md)
 ### [2、DNS解析](https://github.com/miracle90/Web/blob/master/docs/network/dns.md)
 ### 3、UDP和TCP
 ### 4、HTTP和HTTPS
 ### 5、HTTP/1和HTTP/2
-
 ### 6、websocket
-
 ### 其他
 
 * ip
@@ -31,10 +29,6 @@ web开发知识库
 
 ## 二、浏览器
 
-### 常见面试题
-
-* 页面白屏的原因和解决方法
-
 ### [1、事件机制](https://github.com/miracle90/Web/blob/master/docs/browser/event.md)
 
 * 注册事件
@@ -43,16 +37,10 @@ web开发知识库
 * 事件代理
 
 ### [2、跨域](https://github.com/miracle90/Web/blob/master/docs/browser/cross-domain.md)
-
-* 什么是跨域
-* 浏览器同源策略
-* 跨域解决方案
-
 ### [3、存储](https://github.com/miracle90/Web/blob/master/docs/browser/storage.md)
 
-* cookie
-* localStorage
-* sessionStorage
+* cookie、session
+* localStorage、sessionStorage
 * indexDB
 * Service Worker
 
@@ -71,6 +59,10 @@ web开发知识库
 * 将 CSS 文件转换为 CSSOM 树
 * 当我们生成 DOM 树和 CSSOM 树以后，就需要将这两棵树组合为渲染树
 * 根据渲染树来进行布局（也可以叫做回流）
+
+### 常见面试题
+
+* 页面白屏的原因和解决方法
 
 ## 二、Javascript
 
