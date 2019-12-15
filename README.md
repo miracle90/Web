@@ -6,36 +6,31 @@ web开发知识库
 
 ### [1、基础知识点](https://github.com/miracle90/Web/blob/master/docs/js/basic.md)
 
-* 闭包
-* 原型
+* [闭包](https://github.com/miracle90/Web/blob/master/docs/js/closure.md)
+* [原型](https://github.com/miracle90/Web/blob/master/docs/js/prototype.md)
 * 深浅拷贝
 * this
 * call、apply、bind + 手写
 * typeof、instanceof
 * 节流、防抖
 * 柯里化
+* 垃圾回收机制
 
 ### 2、异步
 
-* 回调、promise、generator、async
+* 并发与并行
+* 回调、promise、generator、async（Generator 与co模块）
 * Promise/A+规范
 * 手写promise
-
-* 聊聊promise async/await
-* Promise/A+规范
-* 手动实现Promise，写出伪代码
-* async 函数与 Generator 与co模块
-* 如果Promise代码执行出错，setTimeout中的方法是否还会继续执行？为什么？
 
 ### 2、Event Loop
 
 ### 3、Es6
 
+* es6常用特性
 * 1、什么是提升？什么是暂时性死区？var、let 及 const 区别？
 * 2、原型如何实现继承？Class 如何实现继承？Class 本质是什么？
 * 3、涉及面试题：Proxy 可以实现什么功能？
-* 4、并发与并行的区别？
-* ES6的新特性有哪些？
 
 ### 3、Babel
 
