@@ -16,14 +16,14 @@ web开发知识库
 * [垃圾回收机制](https://github.com/miracle90/Web/blob/master/docs/js/gc.md)
 * [柯里化](https://github.com/miracle90/Web/blob/master/docs/js/curry.md)
 
-### 2、异步
+### 2、[异步](https://github.com/miracle90/Web/blob/master/docs/js/async.md)
 
 * 并发与并行
 * 回调、promise、generator、async（Generator 与co模块）
 * Promise/A+规范
-* 手写promise
+* [手写promise](https://github.com/miracle90/Web/blob/master/docs/js/promise.js)
 
-### 2、Event Loop
+### 2、[Event Loop](https://github.com/miracle90/Web/blob/master/docs/js/event-loop.md)
 
 ### 3、Es6
 
