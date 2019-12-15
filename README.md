@@ -4,17 +4,17 @@ web开发知识库
 
 ## 一、Javascript
 
-### [1、基础知识点](https://github.com/miracle90/Web/blob/master/docs/js/basic.md)
+### 1、基础知识点
 
 * [闭包](https://github.com/miracle90/Web/blob/master/docs/js/closure.md)
 * [原型](https://github.com/miracle90/Web/blob/master/docs/js/prototype.md)
 * [this、call、apply、bind + 手写](https://github.com/miracle90/Web/blob/master/docs/js/this-call-apply-bind.md)
 * [new](https://github.com/miracle90/Web/blob/master/docs/js/new.md)
 * [typeof、instanceof](https://github.com/miracle90/Web/blob/master/docs/js/typeof-instanceof.md)
-* 深浅拷贝
-* 节流、防抖
-* 垃圾回收机制
-* 柯里化
+* [深浅拷贝](https://github.com/miracle90/Web/blob/master/docs/js/clone.md)
+* [节流、防抖](https://github.com/miracle90/Web/blob/master/docs/js/throttle-debounce.md)
+* [垃圾回收机制](https://github.com/miracle90/Web/blob/master/docs/js/gc.md)
+* [柯里化](https://github.com/miracle90/Web/blob/master/docs/js/curry.md)
 
 ### 2、异步
 
