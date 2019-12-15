@@ -8,13 +8,13 @@ web开发知识库
 
 * [闭包](https://github.com/miracle90/Web/blob/master/docs/js/closure.md)
 * [原型](https://github.com/miracle90/Web/blob/master/docs/js/prototype.md)
+* [this、call、apply、bind + 手写](https://github.com/miracle90/Web/blob/master/docs/js/this-call-apply-bind.md)
+* [new](https://github.com/miracle90/Web/blob/master/docs/js/new.md)
+* [typeof、instanceof](https://github.com/miracle90/Web/blob/master/docs/js/typeof-instanceof.md)
 * 深浅拷贝
-* this
-* call、apply、bind + 手写
-* typeof、instanceof
 * 节流、防抖
-* 柯里化
 * 垃圾回收机制
+* 柯里化
 
 ### 2、异步
 
@@ -38,10 +38,10 @@ web开发知识库
 
 ### [常见面试题](https://github.com/miracle90/Web/blob/master/docs/js/question.md)
 
-* 1、原始类型有哪几种？null 是对象嘛？
 * 2、0.1 + 0.2 ！= 0.3
-* 3、typeof 是否能正确判断类型？instanceof 能正确判断对象的原理是什么？
 * 4、== 和 === 有什么区别？
+* 1、原始类型有哪几种？null 是对象嘛？
+* 3、typeof 是否能正确判断类型？instanceof 能正确判断对象的原理是什么？
 * 5、[] == ![]
 
 * 数组去重排序
