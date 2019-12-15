@@ -34,15 +34,23 @@ web开发知识库
 
 ### 3、Babel
 
-### 其他
+### 4、Jquery
+
+* jquery一个对象绑定多个事件怎么实现的
+* jquery的bing、delege、live的区别
+* jquery数组转成json怎么实现的
+
+### 其他专题
+
+* Typescript
 
 ### [常见面试题](https://github.com/miracle90/Web/blob/master/docs/js/question.md)
 
-* 2、0.1 + 0.2 ！= 0.3
-* 4、== 和 === 有什么区别？
-* 1、原始类型有哪几种？null 是对象嘛？
-* 3、typeof 是否能正确判断类型？instanceof 能正确判断对象的原理是什么？
-* 5、[] == ![]
+* 1、0.1 + 0.2 ！= 0.3
+* 2、== 和 === 有什么区别？
+* 3、[] == ![]
+
+### 其他面试题
 
 * 数组去重排序
 * JavaScript事件模型
@@ -58,14 +66,6 @@ web开发知识库
 * 宿主对象和原生对象
 * 隐性转换
 * 断网情况下怎样实现页面离线编辑？除了localStorage和sessionStorage之外，还有什么缓存方式？（请求提示，说indexDB）
-
-### Jquery
-
-* jquery一个对象绑定多个事件怎么实现的
-* jquery的bing、delege、live的区别
-* jquery数组转成json怎么实现的
-
-### Typescript
 
 ## 二、Css
 
@@ -166,7 +166,6 @@ web开发知识库
 * 协商缓存 Last-modified、If-Modified-Since、ETag、If-None-Match
 
 ### [5、浏览器渲染原理](https://github.com/miracle90/Web/blob/master/docs/browser/render.md)
-
 
 ### 6、进程和线程
 
