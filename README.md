@@ -16,14 +16,14 @@ web开发知识库
 * [垃圾回收机制](https://github.com/miracle90/Web/blob/master/docs/js/gc.md)
 * [柯里化](https://github.com/miracle90/Web/blob/master/docs/js/curry.md)
 
-### 2、[异步](https://github.com/miracle90/Web/blob/master/docs/js/async.md)
+### [2、异步](https://github.com/miracle90/Web/blob/master/docs/js/async.md)
 
 * 并发与并行
 * 回调、promise、generator、async（Generator 与co模块）
 * Promise/A+规范
 * [手写promise](https://github.com/miracle90/Web/blob/master/docs/js/promise.js)
 
-### 2、[Event Loop](https://github.com/miracle90/Web/blob/master/docs/js/event-loop.md)
+### [2、Event Loop](https://github.com/miracle90/Web/blob/master/docs/js/event-loop.md)
 
 ### 3、Es6
 
@@ -32,7 +32,7 @@ web开发知识库
 * 2、原型如何实现继承？Class 如何实现继承？Class 本质是什么？
 * 3、涉及面试题：Proxy 可以实现什么功能？
 
-### 3、Babel
+### [3、Babel](https://github.com/miracle90/Web/blob/master/docs/js/babel.md)
 
 ### 4、Jquery
 
@@ -156,21 +156,20 @@ web开发知识库
 
 ### [1、事件机制](https://github.com/miracle90/Web/blob/master/docs/browser/event.md)
 ### [2、跨域](https://github.com/miracle90/Web/blob/master/docs/browser/cross-domain.md)
-### [3、存储](https://github.com/miracle90/Web/blob/master/docs/browser/storage.md)
+### [3、本地存储](https://github.com/miracle90/Web/blob/master/docs/browser/storage.md)
 
 * cookie、session
 * localStorage、sessionStorage
 * indexDB
-* Service Worker
 
 ### [4、浏览器缓存](https://github.com/miracle90/Web/blob/master/docs/browser/cache.md)
 
+* 强缓存 Expires Cache-control
+* 协商缓存 Last-modified、If-Modified-Since、ETag、If-None-Match
 * Service Worker
 * mermory cache
 * Disk cache
 * Push cache
-* 强缓存 Expires Cache-control
-* 协商缓存 Last-modified、If-Modified-Since、ETag、If-None-Match
 
 ### [5、浏览器渲染原理](https://github.com/miracle90/Web/blob/master/docs/browser/render.md)
 
@@ -192,13 +191,13 @@ web开发知识库
 * SQL注入
 * DNS攻击
 
-## :dart: [前端监控](https://github.com/miracle90/Web/blob/master/docs/monitoring/monitoring.md)
+## [九、前端监控](https://github.com/miracle90/Web/blob/master/docs/monitoring/monitoring.md)
 
 * 页面埋点
 * 性能监控
 * 异常监控
 
-## :dart: [设计模式](https://github.com/miracle90/Web/blob/master/docs/design-patterns/design-patterns.md)
+## [十、设计模式](https://github.com/miracle90/Web/blob/master/docs/design-patterns/design-patterns.md)
 
 * 面向对象
 * SOLID五大设计原则
@@ -210,7 +209,7 @@ web开发知识库
 * 发布订阅模式和观察者模式的异同以及实际应用
 * 可以说出几种设计模式在开发中的实际应用，理解框架源码中对设计模式的应用
 
-## :dart: [数据结构和算法](https://github.com/miracle90/Web/blob/master/docs/data-structure/data-structure.md)
+## [十一、数据结构和算法](https://github.com/miracle90/Web/blob/master/docs/data-structure/data-structure.md)
 
 * 时间复杂度
 * 栈
@@ -231,6 +230,14 @@ web开发知识库
 * 数组排序
 * 从数组中取出几个最小的值
 
+
+## [十二、微信小程序](https://github.com/miracle90/Web/blob/master/docs/wxApp/wxApp.md)
+
+* 生命周期
+* 底层原理
+* 性能优化
+* 常见问题
+
 ## :dart: 前端新技术
 
 ### PWA
@@ -247,8 +254,6 @@ web开发知识库
 * Express
 * Egg.js
 * queryParams方法
-
-## 微信小程序~
 
 ## 前端性能优化~
 
