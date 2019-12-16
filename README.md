@@ -127,6 +127,8 @@ web开发知识库
 
 ### [性能优化](https://github.com/miracle90/Web/blob/master/docs/webpack/optimize.md)
 
+### [源码分析](https://github.com/miracle90/Web/blob/master/docs/webpack/resource.md)
+
 ## 六、网络相关
 
 ### [1、CDN](https://github.com/miracle90/Web/blob/master/docs/network/cdn.md)
