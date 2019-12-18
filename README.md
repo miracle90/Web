@@ -15,6 +15,7 @@ web开发知识库
 * [节流、防抖](https://github.com/miracle90/Web/blob/master/docs/js/throttle-debounce.md)
 * [垃圾回收机制](https://github.com/miracle90/Web/blob/master/docs/js/gc.md)
 * [柯里化](https://github.com/miracle90/Web/blob/master/docs/js/curry.md)
+* [数组去重、排序、扁平化](https://github.com/miracle90/Web/blob/master/docs/js/arry-solve.md)
 
 ### [2、异步](https://github.com/miracle90/Web/blob/master/docs/js/async.md)
 
@@ -53,12 +54,10 @@ web开发知识库
 
 ### 其他面试题
 
-* 数组去重排序
 * JavaScript事件模型
 * null和undefined的区别
 * ['1', '2', '3'].map(parseInt)的输出结果是什么？
 * ['1', '2', '3'].fliter(parseInt)的输出结果是什么？
-* 说出几种数组去重的方式
 * （React）实现一个防抖的模糊查询输入框
 *  手动封装一个请求函数，可以设置最大请求次数，请求成功则不再请求，请求失败则继续请求直到超过最大次数
 * 跨标签页的通讯方式有哪些
