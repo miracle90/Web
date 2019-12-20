@@ -45,12 +45,11 @@ web开发知识库
 
 * Typescript
 
-### [常见面试题](https://github.com/miracle90/Web/blob/master/docs/js/question.md)
+### [常见面试题](https://github.com/miracle90/Web/blob/master/docs/js/questions.md)
 
 * 1、0.1 + 0.2 ！= 0.3
 * 2、== 和 === 有什么区别？
 * 3、[] == ![]
-* [4、JavaScript将具有父子关系的原始数据格式化成树形结构数据(id,pid)](https://github.com/miracle90/Web/blob/master/docs/js/question/tree.js)
 
 ### 其他面试题
 
