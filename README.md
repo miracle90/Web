@@ -89,19 +89,20 @@ web开发知识库
 
 ## 三、Vue
 
-### 1、双向数据绑定原理
-### 2、虚拟DOM
-### 3、patch阶段的diff算法
-### 4、vue-router原理
-### 5、vuex原理
-### 6、nextTick原理
-### 7、Object.defineProperty弊端
-### 8、Vue3.0
-### 9、对比vue和react
-### 10、vue-ssr
+* 1、双向数据绑定原理
+* 2、虚拟DOM
+* [3、patch阶段的diff算法](https://github.com/miracle90/Web/blob/master/docs/vue/diff.md)
+* 4、vue-router原理
+* 5、vuex原理
+* 6、nextTick原理
+* 7、Object.defineProperty弊端
+* 8、Vue3.0
+* 9、对比vue和react
+* [10、vue-ssr](https://github.com/miracle90/Web/blob/master/docs/vue/ssr.md)
 
 ### 常见面试题
 
+* computed和watch区别
 * 组件间通信方式
 * 生命周期
 * 单项数据流的优势
@@ -109,7 +110,7 @@ web开发知识库
 
 ## 四、React
 
-### 生命周期
+* 生命周期
 
 ### 其他
 
