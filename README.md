@@ -241,7 +241,6 @@ web开发知识库
 * 数组排序
 * 从数组中取出几个最小的值
 
-
 ## [十二、微信小程序](https://github.com/miracle90/Web/blob/master/docs/wxApp/wxApp.md)
 
 * 生命周期
@@ -249,56 +248,30 @@ web开发知识库
 * 性能优化
 * 常见问题
 
-## :dart: 前端新技术
-
-### PWA
-### Flutter
-### 了解WebWorker吗？一般使用WebWorker解决什么问题？
-
 ## Html
 
 * iframe的缺点
 
-## Node~
+## Node
 
 * Koa
 * Express
 * Egg.js
 * queryParams方法
 
-## 前端性能优化~
+## 前端性能优化
 
 * 性能分析，怎么量化的分析一个页面的性能
 * 你所知道的前端性能优化方案
 
-## 兼容性、适配问题~
+## 兼容性、适配问题
 
 * 移动端300ms延迟
 
-## Nginx~
-
-* web 服务器的理解
-
-## Linux~
-
-## Docker~
-
-## 数据库~
-
-#### MySQL
-
-#### Mongodb
-
-#### Redis
-
-## 前端工程化
-
 ## 开发性问题
 
+* [浏览器指纹](https://github.com/miracle90/Web/blob/master/docs/fe/fingerprint.md)
 * 最近在研究什么技术
-
-## 项目相关~
-
 * 项目中的亮点、难点
 * 聊一个你印象最深刻的项目经历
 * 项目做了什么事情
@@ -306,9 +279,38 @@ web开发知识库
 * 碰到什么困难，用了什么方法改进
 * 最终达到怎样的效果
 
-## 前端团队建设~
+## 前端团队建设
 
 * 项目搭建
 * 版本管理
 * 公共组件库
 * 代码规范
+
+## 前端工程化
+
+* 持续集成
+* 自动化测试
+* webpack
+* jekins
+
+## 前端新技术
+
+### PWA
+### Flutter
+### 了解WebWorker吗？一般使用WebWorker解决什么问题？
+
+## Nginx
+
+* web 服务器的理解
+
+## Linux
+
+## Docker
+
+## 数据库
+
+#### MySQL
+
+#### Mongodb
+
+#### Redis
