@@ -132,6 +132,8 @@ web开发知识库
 
 ## 五、Webpack
 
+* [打包机制](https://github.com/miracle90/Web/blob/master/docs/webpack/pack.md)
+
 ### [常用配置](https://github.com/miracle90/Web/blob/master/docs/webpack/config.md)
 
 ### [性能优化](https://github.com/miracle90/Web/blob/master/docs/webpack/optimize.md)
