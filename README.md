@@ -130,10 +130,17 @@ web开发知识库
 
 ## Webpack
 
-* [打包机制](https://github.com/miracle90/Web/blob/master/docs/webpack/pack.md)
-* [插件机制](https://github.com/miracle90/Web/blob/master/docs/webpack/plugin.md)
 * [常用配置](https://github.com/miracle90/Web/blob/master/docs/webpack/config.md)
 * [性能优化](https://github.com/miracle90/Web/blob/master/docs/webpack/optimize.md)
+* ast语法解析
+* tapable钩子函数
+* 手写webpack
+* 手写loader
+* 手写plugin
+* 懒加载
+* 热更新
+* [打包机制](https://github.com/miracle90/Web/blob/master/docs/webpack/pack.md)
+* [插件机制](https://github.com/miracle90/Web/blob/master/docs/webpack/plugin.md)
 * [源码分析](https://github.com/miracle90/Web/blob/master/docs/webpack/resource.md)
 
 ## 网络相关
