@@ -2,7 +2,12 @@
 
 web开发知识库
 
-## 一、Javascript
+## 前端性能优化
+
+* 性能分析，怎么量化的分析一个页面的性能
+* 你所知道的前端性能优化方案
+
+## Javascript
 
 ### 1、基础知识点
 
@@ -69,7 +74,7 @@ web开发知识库
 * 隐性转换
 * 断网情况下怎样实现页面离线编辑？除了localStorage和sessionStorage之外，还有什么缓存方式？（请求提示，说indexDB）
 
-## 二、Css
+## Css
 
 * 1、Flex布局
 * 2、盒模型
@@ -80,6 +85,7 @@ web开发知识库
 
 ### 常见面试题
 
+* viewport的缺陷
 * 说出space-between和space-around的区别？
 * 选择器优先级（!important > 行内样式 > id选择器 > class选择器 > 标签选择器 > * > 继承 > 默认）
 * CSS3中transition和animation的属性分别有哪些
@@ -88,7 +94,7 @@ web开发知识库
 * 如何开启GPU加速？
 * 重绘和重排的区别
 
-## 三、Vue
+## Vue
 
 * 1、双向数据绑定原理
 * 2、虚拟DOM
@@ -97,7 +103,7 @@ web开发知识库
 * 5、vuex原理
 * 6、nextTick原理
 * 7、Object.defineProperty弊端
-* 8、Vue3.0
+* [8、Vue3.0](https://github.com/miracle90/Web/blob/master/docs/vue/vue3.md)
 * 9、对比vue和react
 * [10、vue-ssr](https://github.com/miracle90/Web/blob/master/docs/vue/ssr.md)
 
@@ -109,7 +115,7 @@ web开发知识库
 * 单项数据流的优势
 * mvvm怎么实现双向绑定的
 
-## 四、React
+## React
 
 * 生命周期
 * 虚拟树原理
@@ -122,7 +128,7 @@ web开发知识库
 * React为什么要使用虚拟DOM？
 * React事件绑定机制
 
-## 五、Webpack
+## Webpack
 
 * [打包机制](https://github.com/miracle90/Web/blob/master/docs/webpack/pack.md)
 * [插件机制](https://github.com/miracle90/Web/blob/master/docs/webpack/plugin.md)
@@ -130,13 +136,13 @@ web开发知识库
 * [性能优化](https://github.com/miracle90/Web/blob/master/docs/webpack/optimize.md)
 * [源码分析](https://github.com/miracle90/Web/blob/master/docs/webpack/resource.md)
 
-## 六、网络相关
+## 网络相关
 
 ### [1、CDN](https://github.com/miracle90/Web/blob/master/docs/network/cdn.md)
 ### [2、DNS解析](https://github.com/miracle90/Web/blob/master/docs/network/dns.md)
 ### [3、UDP和TCP](https://github.com/miracle90/Web/blob/master/docs/network/tcp-udp.md)
 ### [4、HTTP和HTTPS](https://github.com/miracle90/Web/blob/master/docs/network/http-https.md)
-### [5、HTTP/1和HTTP/2](https://github.com/miracle90/Web/blob/master/docs/network/http2.md)
+### [5、HTTP/1和HTTP/2和HTTP/3](https://github.com/miracle90/Web/blob/master/docs/network/http2.md)
 ### 6、websocket
 ### 其他
 
@@ -155,7 +161,7 @@ web开发知识库
 * http协议中缓存的状态码是多少？重定向的状态码是多少？301和302的区别？永久重定向和暂时重定向的区别？
 * websocket如果连接异常，有降级处理方案吗？答心跳轮询。请求提示，说长轮询
 
-## 七、浏览器
+## 浏览器
 
 ### [1、事件机制](https://github.com/miracle90/Web/blob/master/docs/browser/event.md)
 ### [2、跨域](https://github.com/miracle90/Web/blob/master/docs/browser/cross-domain.md)
@@ -186,7 +192,7 @@ web开发知识库
 
 * 页面白屏的原因和解决方法
 
-## [八、web安全](https://github.com/miracle90/Web/blob/master/docs/security/web-security.md)
+## [web安全](https://github.com/miracle90/Web/blob/master/docs/security/web-security.md)
 
 * XSS
 * CSRF
@@ -194,13 +200,13 @@ web开发知识库
 * SQL注入
 * DNS攻击
 
-## [九、前端监控](https://github.com/miracle90/Web/blob/master/docs/monitoring/monitoring.md)
+## [前端监控](https://github.com/miracle90/Web/blob/master/docs/monitoring/monitoring.md)
 
 * 页面埋点
 * 性能监控
 * 异常监控
 
-## [十、设计模式](https://github.com/miracle90/Web/blob/master/docs/design-patterns/design-patterns.md)
+## [设计模式](https://github.com/miracle90/Web/blob/master/docs/design-patterns/design-patterns.md)
 
 * 面向对象
 * SOLID五大设计原则
@@ -212,7 +218,7 @@ web开发知识库
 * 发布订阅模式和观察者模式的异同以及实际应用
 * 可以说出几种设计模式在开发中的实际应用，理解框架源码中对设计模式的应用
 
-## [十一、数据结构和算法](https://github.com/miracle90/Web/blob/master/docs/data-structure/data-structure.md)
+## [数据结构和算法](https://github.com/miracle90/Web/blob/master/docs/data-structure/data-structure.md)
 
 * 时间复杂度
 * 栈
@@ -233,7 +239,7 @@ web开发知识库
 * 数组排序
 * 从数组中取出几个最小的值
 
-## [十二、微信小程序](https://github.com/miracle90/Web/blob/master/docs/wxApp/wxApp.md)
+## [微信小程序](https://github.com/miracle90/Web/blob/master/docs/wxApp/wxApp.md)
 
 * 生命周期
 * 底层原理
@@ -250,11 +256,6 @@ web开发知识库
 * Express
 * Egg.js
 * queryParams方法
-
-## 前端性能优化
-
-* 性能分析，怎么量化的分析一个页面的性能
-* 你所知道的前端性能优化方案
 
 ## 兼容性、适配问题
 
