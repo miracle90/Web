@@ -138,14 +138,13 @@ web开发知识库
 
 ## 网络相关
 
-### [1、CDN](https://github.com/miracle90/Web/blob/master/docs/network/cdn.md)
-### [2、DNS解析](https://github.com/miracle90/Web/blob/master/docs/network/dns.md)
-### [3、UDP和TCP](https://github.com/miracle90/Web/blob/master/docs/network/tcp-udp.md)
-### [4、HTTP和HTTPS](https://github.com/miracle90/Web/blob/master/docs/network/http-https.md)
-### [5、HTTP/1和HTTP/2和HTTP/3](https://github.com/miracle90/Web/blob/master/docs/network/http2.md)
-### 6、websocket
-### 其他
-
+* [1、CDN](https://github.com/miracle90/Web/blob/master/docs/network/cdn.md)
+* [2、DNS解析](https://github.com/miracle90/Web/blob/master/docs/network/dns.md)
+* [3、UDP和TCP](https://github.com/miracle90/Web/blob/master/docs/network/tcp-udp.md)
+* [4、HTTP和HTTPS](https://github.com/miracle90/Web/blob/master/docs/network/http-https.md)
+* [5、HTTP/1和HTTP/2和HTTP/3](https://github.com/miracle90/Web/blob/master/docs/network/http2.md)
+* 6、websocket
+* 其他
 * ip
 * 3次握手，4次挥手
 * 常见状态码
@@ -164,7 +163,12 @@ web开发知识库
 ## 浏览器
 
 ### [1、事件机制](https://github.com/miracle90/Web/blob/master/docs/browser/event.md)
+
+* 冒泡、捕获
+* 委托
+
 ### [2、跨域](https://github.com/miracle90/Web/blob/master/docs/browser/cross-domain.md)
+
 ### [3、本地存储](https://github.com/miracle90/Web/blob/master/docs/browser/storage.md)
 
 * cookie、session
@@ -175,7 +179,7 @@ web开发知识库
 
 * 强缓存 Expires Cache-control
 * 协商缓存 Last-modified、If-Modified-Since、ETag、If-None-Match
-* Service Worker
+* [Service Worker](https://github.com/miracle90/Web/blob/master/docs/browser/service-worker.md)
 * mermory cache
 * Disk cache
 * Push cache
@@ -184,9 +188,7 @@ web开发知识库
 
 ### 6、进程和线程
 
-### 其他
-
-* web worker
+### 7、web worker
 
 ### 常见面试题
 
