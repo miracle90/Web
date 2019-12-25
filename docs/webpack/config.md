@@ -2,15 +2,34 @@
 
 ## 基础配置
 
+* entry
+* output
+* devServer
+* mode
+* module
+* plugins
+* externals
+* optimization => minimizer 
+
 ## 常用plugin
 
-* define-plugin：定义环境变量
-* commons-chunk-plugin：提取公共代码
-* uglifyjs-webpack-plugin：通过UglifyES压缩ES6代码
+* html-webpack-plugin 生成html
+* mini-css-extract-plugin 抽离css样式，变成link标签引入
+* optimize-css-assets-webpack-plugin 优化css插件
+* uglifyjs-webpack-plugin 通过UglifyES压缩ES6代码
+* Webpack.ProvidePlugin 给每个模块注入一个插件
+* define-plugin 定义环境变量
+* commons-chunk-plugin 提取公共代码
 
 ## 常用loader
 
+* css-loader 将css转成css模块，在webpack中引入
+* style-loader 将css模块，以style标签形式插入到head标签中
+* less-loader、stylus-loader、node-sass + sass-loader 处理css预处理器
+* postcss-loader autoprefixer 给css属性加前缀
 * file-loader：把文件输出到一个文件夹中，在代码中通过相对 URL 去引用输出的文件
+* html-withimg-loader html中携带图片
+
 * url-loader：和 file-loader 类似，但是能在文件很小的情况下以 base64 的方式把文件内容注入到代码中去
 * source-map-loader：加载额外的 Source Map 文件，以方便断点调试
 * image-loader：加载并且压缩图片文件
