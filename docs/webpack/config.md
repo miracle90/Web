@@ -9,7 +9,10 @@
 * module
 * plugins
 * externals
-* optimization => minimizer 
+* optimization => minimizer
+* devtools: 'souce-map'
+* watch: true 监听打包
+* 代理
 
 ## 常用plugin
 
@@ -18,8 +21,11 @@
 * optimize-css-assets-webpack-plugin 优化css插件
 * uglifyjs-webpack-plugin 通过UglifyES压缩ES6代码
 * Webpack.ProvidePlugin 给每个模块注入一个插件
-* define-plugin 定义环境变量
+* Webpack.DefinePlugin 定义环境变量
+* Webpack.BannerPlugin
+* CopyWebpackPlugin
 * commons-chunk-plugin 提取公共代码
+* webpack-merge
 
 ## 常用loader
 
@@ -38,6 +44,14 @@
 * style-loader：把 CSS 代码注入到 JavaScript 中，通过 DOM 操作去加载 CSS
 * eslint-loader：通过 ESLint 检查 JavaScript 代码
 
+## 性能优化
+
+* noParse
+* new Webpack.IgnorePlugin
+* happypack 开启多进程打包
+* tree-shaking 默认只支持es6语法，require不会去分析依赖
+* scope hosting 作用域分析，webpack直接输出结果
+* 抽取公共模块，只做多页面上使用
 
 ## 常见面试题
 
@@ -54,4 +68,8 @@
 11. 怎么配置单页应用？怎么配置多页应用？
 12. npm打包时需要注意哪些？如何利用webpack来更好的构建？
 13. 如何在vue项目中实现按需加载？
+* 使用 webpack 打包时，如何更好地利用 long term cache
+* 随着 http2 的发展，webpack 有没有更好的打包方案
+* webpack 中 tree shaking 的原理是什么
+* vue-loader 的实现原理是什么
 
