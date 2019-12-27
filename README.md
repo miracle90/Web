@@ -2,6 +2,12 @@
 
 web开发知识库
 
+## 学习计划
+
+* Jenkins
+* Weex、React Native
+* Flutter
+
 ## 前端性能优化
 
 * 性能分析，怎么量化的分析一个页面的性能
@@ -293,7 +299,7 @@ web开发知识库
 * 持续集成
 * 自动化测试
 * webpack
-* jekins
+* jenkins
 
 ## 前端新技术
 
