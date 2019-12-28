@@ -2,11 +2,17 @@
 
 web开发知识库
 
-## 学习计划
+## 2020学习计划
 
+* 公司项目前端工程化建设、性能优化
+* Webpack源码
 * Jenkins
 * Weex、React Native
 * Flutter
+* Node、Koa、Express底层
+* egg.js
+* 数据库
+* 网络协议
 
 ## 前端性能优化
 
