@@ -5,6 +5,8 @@ web开发知识库
 ## 2020学习计划
 
 * 公司项目前端工程化建设、性能优化
+* Service Worker、服务端渲染项目中应用
+* Web Worker
 * Webpack源码
 * Jenkins
 * Weex、React Native
