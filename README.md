@@ -1,6 +1,6 @@
-# Front End
+# FE
 
-web开发知识库
+从战术到战略，前端架构师进阶之路
 
 ## 2020学习计划
 
@@ -8,6 +8,7 @@ web开发知识库
 * Service Worker、服务端渲染项目中应用
 * Web Worker
 * Webpack源码
+* http2.0
 * Jenkins
 * Weex、React Native
 * Flutter
@@ -15,6 +16,7 @@ web开发知识库
 * egg.js
 * 数据库
 * 网络协议
+* 技术选型
 
 ## 前端性能优化
 
